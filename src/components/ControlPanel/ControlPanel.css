@@ -1,0 +1,43 @@
+.control-panel {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.control-panel .remote-stream {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.control-panel .remote-stream .agora-player__box {
+  width: 100%;
+  height: 100%;
+}
+
+.control-panel .bottom {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.control-panel .bottom {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+}
+.control-panel .bottom > * {
+  margin: 10px;
+}
+.control-panel .local-stream {
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  border: 3px white solid;
+  width: 240px;
+  height: 180px;
+}

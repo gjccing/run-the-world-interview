@@ -1,0 +1,9 @@
+.channel-info-form {
+  /* text-align: center; */
+}
+.channel-info-form .advance-setting.hide {
+  display: none;
+}
+.channel-info-form .advance-setting.show {
+  display: block;
+}

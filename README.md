@@ -26,10 +26,8 @@
   * 離開頻道
   * publish stream
   * unpublish stream
-  * 切換是否顯示 profile
 * 使用 create-react-app --template typescript 創建專案 (要求 2, 5)
 * ~~使用 AgoraWebSDK-NG (要求 4)~~ 使用 NG 比較不能表現出`簡化`的做法，改回用舊版。
-* 建立 Context 元件透過其內部狀態驅使 agora 改變狀態。(要求 2)
 * UI 規劃上類似 hangout (要求 3)
   * 使用 Antd
   * 第一個畫面輸入 channel 資訊
@@ -37,12 +35,15 @@
     * Channel
     * Token
     * UID optional
-    * 上述資料都記錄於 url 中
-  * 第二個畫面有四個按鈕
+    * camera select
+    * microphone select
+    * resolution select
+    * mode radio
+    * codec radio
+  * 第二個畫面有3個按鈕
     * microphone -> audio track setEnabled
     * leave -> video/audio track leave
     * camera -> video track setEnabled
-    * setting -> 開啟變更進階設定
 
 ## 参考资料
 
