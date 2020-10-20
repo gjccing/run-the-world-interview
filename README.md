@@ -11,6 +11,19 @@
 5. 使用 Typescript（可选）
 6. 尽可能完善地处理各个步骤可能出现的运行时错误（可选）
 
+## 啟動方式
+
+直接運行 build 資料夾
+
+---
+運行專案的話，需要做以下步驟：
+agora 最新的 sdk 有個 typescript 的問題，修正後還沒有 release
+https://github.com/AgoraIO/rtc-web-archive/issues/26
+請 install 後到 node_modules/agora-rtc-sdk/index.d.ts 第 8 行插入以下代碼
+```
+export = AgoraRTC; 
+```
+
 ## Planning
 
 * 整理官方範例功能有以下 (要求 1)
@@ -44,6 +57,8 @@
     * microphone -> audio track setEnabled
     * leave -> video/audio track leave
     * camera -> video track setEnabled
+
+、
 
 ## 参考资料
 
